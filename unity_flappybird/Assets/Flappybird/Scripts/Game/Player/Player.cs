@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static readonly Vector3 moveRight = new Vector3(3.0f, 0.0f, 0.0f);
     public static readonly Vector3 moveDown = new Vector3(0.0f, -3.0f, 0.0f);
     public static readonly Vector3 moveUp = new Vector3(0.0f, 5.0f, 0.0f);
     public Vector3 velocity = new Vector3(0.0f, 0.0f, 0.0f);
     public static readonly float MaxDownSpeed = -7.0f;
+    public static readonly float MaxForwardSpeed = 3.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +20,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        MoveRight();
         MoveDown();
         ApplyVelocity();
+        SetVelocityXLimit();
         SetVelocityYLimit();
     }
 
@@ -30,9 +34,22 @@ public class Player : MonoBehaviour
         rbody.velocity = velocity;
     }
 
+    private void MoveRight()
+    {
+        MergeVelocity(out velocity, velocity, moveRight);
+    }
+
     private void MoveDown()
     {
         MergeVelocity(out velocity, velocity, moveDown);
+    }
+
+    private void SetVelocityXLimit()
+    {
+        if (velocity.x > MaxForwardSpeed)
+        {
+            velocity.x = MaxForwardSpeed;
+        }
     }
 
     private void SetVelocityYLimit()
