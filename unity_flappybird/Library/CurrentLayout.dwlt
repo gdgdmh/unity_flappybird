@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 492
-    y: 52
+    x: 139
+    y: 89
     width: 1394
     height: 926
   m_ShowMode: 4
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1394
     height: 876
-  m_MinSize: {x: 681, y: 344}
-  m_MaxSize: {x: 12006, y: 8044}
+  m_MinSize: {x: 683, y: 344}
+  m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 80
+  controlID: 44
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 239
     height: 661
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -216,10 +216,10 @@ MonoBehaviour:
     y: 0
     width: 943
     height: 876
-  m_MinSize: {x: 404, y: 344}
-  m_MaxSize: {x: 8004, y: 8044}
+  m_MinSize: {x: 406, y: 344}
+  m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 81
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +241,10 @@ MonoBehaviour:
     y: 0
     width: 943
     height: 661
-  m_MinSize: {x: 404, y: 222}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 406, y: 222}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 82
+  controlID: 46
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -359,10 +359,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 990
-    y: 190
+    x: 1435
+    y: 82
     width: 449
-    height: 856
+    height: 857
   m_ViewDataDictionary: {fileID: 0}
   m_InitialOpenURL: https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_GlobalObjectTypeName: 
@@ -446,8 +446,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1441
-    y: 86
+    x: 1031
+    y: 108
     width: 449
     height: 857
   m_ViewDataDictionary: {fileID: 0}
@@ -463,20 +463,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Flappybird/Scripts/Game/Player
+    - Assets/Flappybird/Scripts/Game/Gimmick/IronThornsBall
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Flappybird/Scripts/Game/Player
+  - Assets/Flappybird/Scripts/Game/Gimmick/IronThornsBall
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/mh/Git/unity_flappybird/unity_flappybird
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a6290000
-    m_LastClickedID: 10662
-    m_ExpandedIDs: 000000007e290000d4290000e8290000142a00005e2a0000d22a0000fa2a0000902b0000c02b0000cc2b0000ee2b0000182c0000
+    m_SelectedIDs: 802d0000
+    m_LastClickedID: 11648
+    m_ExpandedIDs: 0000000080290000fa2900000e2a00003c2a0000862a0000942a0000fe2a0000262b0000bc2b0000ee2b0000fa2b00001c2c0000482c0000a02c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,7 +504,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007e290000d4290000e8290000142a00005e2a0000d22a0000fa2a0000902b0000c02b0000cc2b0000ee2b0000182c0000
+    m_ExpandedIDs: 0000000080290000fa2900000e2a00003c2a0000862a0000942a0000fe2a0000262b0000bc2b0000ee2b0000fa2b00001c2c0000482c0000a02c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,8 +529,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 962c0000
-    m_LastClickedInstanceID: 11414
+    m_SelectedInstanceIDs: c42c0000
+    m_LastClickedInstanceID: 11460
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ac3500006a2a0000b62d0000bc2d0000d22d00008c2600004a290000ee2b0000022b00000a2b0000060a00001a2c0000a62b000000000000
     m_RenameOverlay:
@@ -580,8 +580,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1435
-    y: 82
+    x: 1082
+    y: 119
     width: 449
     height: 857
   m_ViewDataDictionary: {fileID: 0}
@@ -616,16 +616,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 492
-    y: 82
+    x: 139
+    y: 119
     width: 239
     height: 642
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9a2c0000
-      m_LastClickedID: 11418
+      m_SelectedIDs: e62c0000
+      m_LastClickedID: 11494
       m_ExpandedIDs: 8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -671,8 +671,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 731
-    y: 82
+    x: 378
+    y: 119
     width: 702
     height: 642
   m_ViewDataDictionary: {fileID: 0}
@@ -719,11 +719,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.055778295, y: 0.009582102, z: -0.0005353126, w: -0.9984002}
     speed: 2
-    m_Value: {x: -0.055778123, y: 0.0095820725, z: -0.0005353109, w: -0.9983971}
+    m_Value: {x: -0.055778295, y: 0.009582103, z: -0.0005353126, w: -0.9984002}
   m_Size:
-    m_Target: 33.006313
+    m_Target: 10.977364
     speed: 2
-    m_Value: 33.006313
+    m_Value: 10.977364
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -769,8 +769,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 731
-    y: 82
+    x: 378
+    y: 119
     width: 702
     height: 642
   m_ViewDataDictionary: {fileID: 0}
@@ -850,8 +850,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 492
-    y: 743
+    x: 139
+    y: 780
     width: 943
     height: 196
   m_ViewDataDictionary: {fileID: 0}
