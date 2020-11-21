@@ -118,4 +118,13 @@ public class Player : MonoBehaviour
     {
         mergeResult = merge1 + merge2;
     }
+
+    /// <summary>
+    /// 当たり判定(Enter)
+    /// </summary>
+    /// <param name="other">ヒットした対象</param>
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("OnTriggerEnter(Player) tag(" + other.tag + ") name(" + other.name + ")");
+    }
 }
