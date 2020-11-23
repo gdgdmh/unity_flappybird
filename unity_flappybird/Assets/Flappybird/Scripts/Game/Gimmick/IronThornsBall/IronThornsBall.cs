@@ -23,8 +23,11 @@ public class IronThornsBall : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("OnTriggerEnter(IronThornsBall) tag(" + other.tag + ") name(" + other.name + ")");
-        // 障害物の削除処理
-        OnDestroyIronThornsBall();
+        if (other.tag == "player")
+        {
+            // プレイヤーと当たったら削除
+            OnDestroyIronThornsBall();
+        }
     }
 
     /// <summary>
