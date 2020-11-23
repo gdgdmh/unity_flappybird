@@ -23,7 +23,24 @@ public class IronThornsBall : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("OnTriggerEnter(IronThornsBall) tag(" + other.tag + ") name(" + other.name + ")");
+        // 障害物の削除処理
+        OnDestroyIronThornsBall();
+    }
 
+    /// <summary>
+    /// 障害物の削除処理
+    /// </summary>
+    private void OnDestroyIronThornsBall()
+    {
+        // 障害物のゲームオブジェクト削除
+        DestoryIronThornsBall();
+    }
 
+    /// <summary>
+    /// 障害物のゲームオブジェクトの削除
+    /// </summary>
+    private void DestoryIronThornsBall()
+    {
+        Destroy(this.gameObject);
     }
 }
