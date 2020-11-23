@@ -15,4 +15,15 @@ public class IronThornsBall : MonoBehaviour
     {
         
     }
+
+    /// <summary>
+    /// 当たり判定(Enter)
+    /// </summary>
+    /// <param name="other">ヒットした対象</param>
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("OnTriggerEnter(IronThornsBall) tag(" + other.tag + ") name(" + other.name + ")");
+
+
+    }
 }

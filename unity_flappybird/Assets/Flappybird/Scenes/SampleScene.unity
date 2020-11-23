@@ -360,6 +360,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f5dc10f992f9047bcbb6a0eb70e0845a,
+        type: 3}
+      propertyPath: m_TagString
+      value: player
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f5dc10f992f9047bcbb6a0eb70e0845a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -453,6 +458,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ef748a8167a16420e840a6200db6fd4c,
+        type: 3}
+      propertyPath: m_TagString
+      value: iron_thorns_ball
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: ef748a8167a16420e840a6200db6fd4c,
         type: 3}

@@ -126,5 +126,28 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("OnTriggerEnter(Player) tag(" + other.tag + ") name(" + other.name + ")");
+        if (other.tag == "iron_thorns_ball")
+        {
+            // プレイヤーの削除
+            OnDestroyPlayer();
+        }
+    }
+
+    /// <summary>
+    /// プレイヤーの削除処理
+    /// </summary>
+    private void OnDestroyPlayer()
+    {
+        // プレイヤーオブジェクト削除
+        DestoryPlayerObject();
+    }
+
+    /// <summary>
+    /// プレイヤーのゲームオブジェクトの削除
+    /// </summary>
+    private void DestoryPlayerObject()
+    {
+        // ゲームオブジェクトを削除
+        Destroy(this.gameObject);
     }
 }
