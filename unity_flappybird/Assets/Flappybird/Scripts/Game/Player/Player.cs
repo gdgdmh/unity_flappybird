@@ -100,6 +100,16 @@ public class Player : MonoBehaviour
     }
 
     /// <summary>
+    /// ベクトルに0を設定
+    /// </summary>
+    private void SetZeroVelocity()
+    {
+        velocity.x = 0.0f;
+        velocity.y = 0.0f;
+        velocity.z = 0.0f;
+    }
+
+    /// <summary>
     /// ジャンプ処理
     /// </summary>
     private void MoveJump()
@@ -149,5 +159,12 @@ public class Player : MonoBehaviour
     {
         // ゲームオブジェクトを削除
         Destroy(this.gameObject);
+    }
+
+    /// <summary>
+    /// ゲームオーバー処理
+    /// </summary>
+    private void OnGameOver()
+    {
     }
 }
